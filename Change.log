@@ -1,0 +1,39 @@
+-------------------------------------------------------------------------------
+PHP Leap Toolkit - Release Change Log
+-------------------------------------------------------------------------------
+
+
+Release 0.1
+ - Initial Release
+
+
+Release 0.2
+ - Renamed the model object to entity
+
+
+Release 0.3
+ - Change the collection object to return an array of items which can be called
+   by member name instead of array name (ex: $row->ColumnName instead of
+   $row['ColumnName'])
+ - Added Regular Expression check to the validator
+ - Changed the Entity.InitColumn method
+ - Removing Entity.ApplyDS method
+ - Added an Entity.Validate method
+
+
+Release 0.4
+ - Added new Application RootURL and RootDIR with environment defaults
+ - Changed Lister object to Repeater
+ - Changed Repeater.PrintList to Render
+ - Added support for Repeater.Add to take arrays
+ - Changed Application->cmd to Application->Action
+
+Release 0.5
+ - Removed Entity.Debug method
+ - Added Entity.ToJSON method
+ - Added Entity.ToXML method
+
+
+-------------------------------------------------------------------------------
+Copyright (c) 2009 Matt McQuillan - http://mattmcquillan.com
+-------------------------------------------------------------------------------
